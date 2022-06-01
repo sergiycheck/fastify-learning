@@ -1,0 +1,27 @@
+{
+  "name": "getting-started",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap --reporter=list --watch",
+    "start:nodemon": "nodemon ./start-with-mongodb/server.js",
+    "start": "fastify  start ./start-with-mongodb/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.27.4",
+    "fastify-cli": "^3.1.0",
+    "fastify-mongodb": "^4.1.1",
+    "fastify-plugin": "^3.0.1",
+    "nodemon": "^2.0.15",
+    "pino-pretty": "^7.5.4",
+    "tap": "^16.0.1"
+  },
+  "devDependencies": {
+    "supertest": "^6.2.2"
+  }
+}

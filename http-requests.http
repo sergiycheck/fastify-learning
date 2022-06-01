@@ -1,0 +1,13 @@
+###
+GET http://localhost:3021 HTTP/1.1
+
+###
+GET http://localhost:3021/animals/dog HTTP/1.1
+
+###
+POST http://localhost:3021/animals HTTP/1.1
+content-type: application/json
+
+{
+	"animal": "dog"
+}
