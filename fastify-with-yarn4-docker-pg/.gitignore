@@ -1,0 +1,6 @@
+node_modules
+.yarn
+.idea
+dist
+.env
+.pnp.cjs
