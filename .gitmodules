@@ -1,0 +1,3 @@
+[submodule "node-service-template"]
+	path = node-service-template
+	url = ./node-service-template
